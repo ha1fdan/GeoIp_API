@@ -37,7 +37,7 @@ This command starts Nginx, PHP-FPM, and GeoIP Update container.
 
 Access your API by navigating to:
 
-http://localhost
+http://localhost:8080
 
 ### Stopping the Service
 
