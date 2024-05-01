@@ -21,5 +21,7 @@ services:
 
   geoipupdate:
     image: maxmindinc/geoipupdate
+    env_file:
+      - .env
     volumes:
       - ./GeoIP:/usr/share/GeoIP
