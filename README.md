@@ -19,7 +19,8 @@ To update GeoIP databases automatically, you need a license key from MaxMind. Fo
 ```conf
 GEOIPUPDATE_ACCOUNT_ID=your_account_id
 GEOIPUPDATE_LICENSE_KEY=your_license_key
-GEOIPUPDATE_EDITION_IDS=GeoLite2-City GeoLite2-Country
+GEOIPUPDATE_EDITION_IDS=GeoLite2-ASN GeoLite2-City GeoLite2-Country
+GEOIPUPDATE_FREQUENCY=72 # in hours
 ```
 
 Replace `your_account_id` and `your_license_key` with your actual account details.
