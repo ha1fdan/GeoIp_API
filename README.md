@@ -29,7 +29,7 @@ Replace `your_account_id` and `your_license_key` with your actual account detail
 
 Launch the services using Docker Compose:
 
-docker-compose up -d
+`docker-compose up -d`
 
 This command starts Nginx, PHP-FPM, and GeoIP Update container.
 
@@ -43,7 +43,7 @@ http://localhost:8080
 
 To stop all services, use:
 
-docker-compose down
+`docker-compose down`
 
 
 ## Contributing
