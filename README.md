@@ -1,4 +1,4 @@
-# IP Lookup API using Nginx, PHP-FPM, and GeoIP Update
+# IP Lookup API
 
 This repository sets up a Docker-based environment for an IP Lookup API with Nginx, PHP-FPM, and GeoIP Update for automatic GeoIP database updates from MaxMind.
 
